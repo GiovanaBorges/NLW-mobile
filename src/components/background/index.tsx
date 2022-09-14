@@ -8,6 +8,7 @@ interface Props{
 
 export function Background({children}: Props) {
   return (
+    <>
     <ImageBackground 
     style={styles.container}
     source={backgroundImg}
@@ -15,5 +16,6 @@ export function Background({children}: Props) {
     >
         {children}
     </ImageBackground>
+    </>
   );
 }
