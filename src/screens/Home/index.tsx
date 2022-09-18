@@ -27,6 +27,7 @@ export function Home() {
     navigation.navigate("gameAds",{id,title,bannerUrl})
   }
 
+  
   return (
     <Background>
     <SafeAreaView style={styles.container}>
